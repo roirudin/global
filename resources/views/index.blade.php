@@ -17,16 +17,6 @@
   <a class="navbar-brand" href="#">
     <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
     Administrator
-    <div class="d-flex justify-content-end">
-                    <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Keluar
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="3">Keluar</a>
-                            </div>
-                        <li class="nav-item">
-                    </div>
   </a>
 </nav>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -71,10 +61,21 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>               
             </form>
         </div>
         </div>
+        <div class="d-flex justify-content-end">
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Keluar
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Keluar</a>
+                            </div>
+                    </li>
+                        <li class="nav-item">
+                    </div>
 </nav>
     <div class="container">
         <div class="row">

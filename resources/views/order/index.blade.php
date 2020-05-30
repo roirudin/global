@@ -14,14 +14,14 @@
 
 <!-- Image and text -->
 <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand disabled" href="#">
     <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
     Marketing
   </a>
 </nav>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="/marketing">Logo Perusahaan</a>
+        <a class="navbar-brand disabled" href="/">Logo Perusahaan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="/marketing">Home</a>
+                <a class="nav-link disabled" href="/marketing">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/order">Order</a>
+                <a class="nav-link disabled" href="#">Order</a>
             </li>         
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Laporan
                 </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -54,7 +54,7 @@
         </div>
         </div>
         <div class="d-flex justify-content-end">
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown disabled">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Keluar
                             </a>
@@ -68,6 +68,54 @@
         <div class="row">
             <div class="col-10">
                 <h1 class="mt-3">Global Aero Dinamika</h1>
+                <div class="alert alert-primary alert-dismissible" role="alert">
+                <form class="text-primary"> 
+                    <div class="form-group row">
+                        <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm"><a style="font-family: soleil;"><h5>Nama</h5></a></label>
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Perusahaan">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label"><a style="font-family: soleil;"><h5>Penerima</h5></a></label>
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="colFormLabel" placeholder="Penerima">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label"><a style="font-family: soleil;"><h5>Alamat</h5></a></label>
+                        <div class="col-sm-10">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg"><a style="font-family: soleil;"><h5>No. Telp</h5></a></label>
+                        <div class="col-sm-10">
+                        <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="08123456789">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputCity"><a style="font-family: soleil;"><h5>Nama Barang</h5></a></label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-1">
+                            <label for="inputCity"><a style="font-family: soleil;"><h5>Jumlah</h5></a></label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-7">
+                            <label for="inputCity"><a style="font-family: soleil;"><h5>Keterangan</h5></a></label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end my-2 my-lg-0">
+                        <button type="submit" class="btn btn-primary">Order</button>
+                        
+                        <button type="submit" class="btn btn-warning">Batal</button>
+                    </div>
+                </form>
+                </div>
+                
             </div>
         </div>
     </div>

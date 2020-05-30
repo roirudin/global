@@ -16,3 +16,4 @@ Route::get('/pelanggan', 'PelangganController@index');
 Route::get('/karyawan', 'KaryawanController@index');
 Route::get('/gudang', 'PagesController@gudang');
 Route::get('/marketing', 'PagesController@marketing');
+Route::get('/order', 'OrderController@create');
